@@ -1,0 +1,39 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1></h1>
+    <script>
+function operateOnArray(arr, operation) {
+    return arr.map(operation);
+}
+
+function double(num) {
+    return num * 2;
+}
+
+function square(num) {
+    return num * num;
+}
+
+function toString(num) {
+    return num.toString();
+}
+
+const numbers = [1, 2, 3, 4, 5];
+
+const doubledNumbers = operateOnArray(numbers, double);
+const squaredNumbers = operateOnArray(numbers, square);
+const stringNumbers = operateOnArray(numbers, toString);
+
+console.log("Original Array:", numbers);
+console.log("Doubled Numbers:", doubledNumbers);
+console.log("Squared Numbers:", squaredNumbers);
+console.log("String Numbers:", stringNumbers);
+
+    </script>
+</body>
+</html>

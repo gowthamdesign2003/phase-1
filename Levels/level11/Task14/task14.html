@@ -1,0 +1,51 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1></h1>
+    <script>
+       const day = 6; 
+
+let dayName = "";
+
+switch (day) {
+  case 1:
+    dayName = "Monday";
+    break;
+  case 2:
+    dayName = "Tuesday";
+    break;
+  case 3:
+    dayName = "Wednesday";
+    break;
+  case 4:
+    dayName = "Thursday";
+    break;
+  case 5:
+    dayName = "Friday";
+    break;
+  case 6:
+    dayName = "Saturday";
+    console.log(dayName);
+    console.log("It's the weekend!");
+    break;
+  case 7:
+    dayName = "Sunday";
+    console.log(dayName);
+    console.log("It's the weekend!");
+    break;
+  default:
+    console.log("Invalid day number. Please enter a number between 1 and 7.");
+    break;
+}
+
+if (day >= 1 && day <= 5) {
+  console.log(dayName);
+}
+
+    </script>
+</body>
+</html>

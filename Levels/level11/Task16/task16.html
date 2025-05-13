@@ -1,0 +1,33 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1></h1>
+    <script>
+       function createCounter() {
+    let count = 0; // Initialize count variable
+
+    return function() { 
+        count++; // Increment count
+        return count; 
+    };
+}
+
+
+const counter1 = createCounter();
+const counter2 = createCounter();
+
+
+console.log(counter1()); 
+console.log(counter1());
+console.log(counter2());
+console.log(counter1());
+console.log(counter2());
+console.log(counter2()); 
+
+    </script>
+</body>
+</html>

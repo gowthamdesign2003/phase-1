@@ -1,0 +1,38 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1></h1>
+    <script>
+        // Array of student objects
+const students = [
+    { name: "Alice", age: 22, grades: [85, 90, 78] },
+    { name: "Bob", age: 19, grades: [88, 76, 95] },
+    { name: "Charlie", age: 23, grades: [92, 81, 89] },
+    { name: "David", age: 20, grades: [75, 85, 80] }
+];
+
+const studentNames = students.map(student => student.name);
+console.log("Student Names:", studentNames);
+
+const olderStudents = students.filter(student => student.age > 20);
+console.log("Students older than 20:", olderStudents);
+
+const totalGrades = students.reduce((sum, student) => 
+    sum + student.grades.reduce((a, b) => a + b, 0) / student.grades.length, 0
+) / students.length;
+console.log("Average Grade of All Students:", totalGrades.toFixed(2));
+
+const avgGradeOlderStudents = students
+    .filter(student => student.age > 20) 
+    .map(student => student.grades.reduce((a, b) => a + b, 0) / student.grades.length) 
+    .reduce((sum, grade, _, arr) => sum + grade / arr.length, 0); 
+
+console.log("Average Grade of Students Older Than 20:", avgGradeOlderStudents.toFixed(2));
+
+    </script>
+</body>
+</html>

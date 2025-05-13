@@ -1,0 +1,35 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1></h1>
+    <script>
+       function divideNumbers(a, b) {
+    if (b === 0) {
+        throw new Error("Cannot divide by zero");
+    }
+    return a / b;
+}
+
+function testDivision(a, b) {
+    try {
+        let result = divideNumbers(a, b);
+        console.log(`Result: ${result}`);
+    } catch (error) {
+        console.log(`Error: ${error.message}`);
+    } finally {
+        console.log("Execution completed.");
+    }
+}
+
+
+testDivision(10, 2); 
+testDivision(5, 0);  
+testDivision(20, 4); 
+
+    </script>
+</body>
+</html>

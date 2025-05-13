@@ -1,0 +1,33 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+let person = {
+  name: "Alex",
+  age: 28,
+  city: "New York",
+  hobbies: ["reading", "cycling", "coding"]
+};
+
+console.log("Name:", person.name);
+console.log("Age:", person.age);
+console.log("City:", person.city);
+console.log("Hobbies:", person.hobbies);
+
+person.job = "Web Developer";
+
+person.age = 29;
+
+person.greet = function() {
+  return `Hello, my name is ${this.name}!`;
+};
+
+console.log("reet:", person.greet());
+
+    </script>
+</body>
+</html>

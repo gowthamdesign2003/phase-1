@@ -1,0 +1,28 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+let favoriteFoods = ["Pizza", "Sushi", "Tacos", "Burger", "Pasta"];
+
+favoriteFoods.push("Ice Cream");
+
+favoriteFoods.shift();
+
+let length = favoriteFoods.length;
+
+let position = favoriteFoods.indexOf("Burger");
+
+let slicedFoods = favoriteFoods.slice(1, 4);
+
+console.log("Original (Modified) Array:", favoriteFoods);
+console.log("Length of Modified Array:", length);
+console.log("Position of 'Burger':", position);
+console.log("Sliced Array (index 1 to 3):", slicedFoods);
+
+    </script>
+</body>
+</html>

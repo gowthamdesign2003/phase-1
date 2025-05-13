@@ -1,0 +1,32 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1></h1>
+    <script>
+        
+const array1 = [1, 2, 3];
+const array2 = [4, 5, 6];
+
+const combinedArray = [...array1, ...array2];
+console.log("Combined Array:", combinedArray);
+
+const obj1 = { name: "Alice", age: 25 };
+const obj2 = { city: "New York", country: "USA" };
+
+const combinedObject = { ...obj1, ...obj2 };
+console.log("Combined Object:", combinedObject);
+
+const originalArray = [10, 20, 30];
+const copiedArray = [...originalArray]; 
+copiedArray.push(40); 
+
+console.log("Original Array:", originalArray);
+console.log("Modified Copy:", copiedArray);
+
+    </script>
+</body>
+</html>
