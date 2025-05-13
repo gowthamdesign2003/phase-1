@@ -1,0 +1,24 @@
+[{
+  "_id": {
+    "$oid": "67e6201ab36f36f4faa1b192"
+  },
+  "name": "gowtham",
+  "age": "21",
+  "grade": "A"
+},
+{
+  "_id": {
+    "$oid": "67e6201ab36f36f4faa1b193"
+  },
+  "name": "jon",
+  "age": "22",
+  "grade": "B"
+},
+{
+  "_id": {
+    "$oid": "67e6201ab36f36f4faa1b194"
+  },
+  "name": "vijay",
+  "age": "20",
+  "grade": "C"
+}]

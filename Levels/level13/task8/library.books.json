@@ -1,0 +1,78 @@
+[{
+  "_id": {
+    "$oid": "67e63f3c87e29d6d43cfab5e"
+  },
+  "title": "The Great Gatsby",
+  "published_date": {
+    "$date": {
+      "$numberLong": "-1411516800000"
+    }
+  },
+  "ISBN": "9780743273565",
+  "page_count": 180,
+  "genres": [
+    "Classic",
+    "Fiction"
+  ],
+  "publisher": {
+    "name": "Charles Scribner's Sons",
+    "location": "New York"
+  },
+  "author_ids": [
+    {
+      "$oid": "67e63f5d1e011f48add776a9"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67e63f3c87e29d6d43cfab5f"
+  },
+  "title": "To Kill a Mockingbird",
+  "published_date": {
+    "$date": {
+      "$numberLong": "-299030400000"
+    }
+  },
+  "ISBN": "9780061120084",
+  "page_count": 281,
+  "genres": [
+    "Classic",
+    "Fiction"
+  ],
+  "publisher": {
+    "name": "J.B. Lippincott & Co.",
+    "location": "Philadelphia"
+  },
+  "author_ids": [
+    {
+      "$oid": "67e63f5d1e011f48add776aa"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67e63f3c87e29d6d43cfab60"
+  },
+  "title": "1984",
+  "published_date": {
+    "$date": {
+      "$numberLong": "-649036800000"
+    }
+  },
+  "ISBN": "9780451524935",
+  "page_count": 328,
+  "genres": [
+    "Dystopian",
+    "Science Fiction"
+  ],
+  "publisher": {
+    "name": "Secker & Warburg",
+    "location": "London"
+  },
+  "author_ids": [
+    {
+      "$oid": "67e63f5d1e011f48add776ab"
+    }
+  ]
+}]

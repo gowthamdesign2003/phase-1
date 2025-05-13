@@ -1,0 +1,180 @@
+[{
+  "_id": {
+    "$oid": "67e630cd8c08fcb32305566b"
+  },
+  "name": "Laptop",
+  "price": 1000,
+  "category": "Electronics",
+  "stock": 10
+},
+{
+  "_id": {
+    "$oid": "67e630cd8c08fcb32305566c"
+  },
+  "name": "Phone",
+  "price": 700,
+  "category": "Electronics",
+  "stock": 15
+},
+{
+  "_id": {
+    "$oid": "67e630cd8c08fcb32305566d"
+  },
+  "name": "Headphones",
+  "price": 200,
+  "category": "Accessories",
+  "stock": 30
+},
+{
+  "_id": {
+    "$oid": "67e630cd8c08fcb32305566e"
+  },
+  "name": "Smartwatch",
+  "price": 300,
+  "category": "Electronics",
+  "stock": 25
+},
+{
+  "_id": {
+    "$oid": "67e630cd8c08fcb32305566f"
+  },
+  "name": "Keyboard",
+  "price": 150,
+  "category": "Accessories",
+  "stock": 40
+},
+{
+  "_id": {
+    "$oid": "67e630cd8c08fcb323055670"
+  },
+  "name": "Mouse",
+  "price": 100,
+  "category": "Accessories",
+  "stock": 50
+},
+{
+  "_id": {
+    "$oid": "67e630cd8c08fcb323055671"
+  },
+  "name": "Tablet",
+  "price": 600,
+  "category": "Electronics",
+  "stock": 12
+},
+{
+  "_id": {
+    "$oid": "67e630cd8c08fcb323055672"
+  },
+  "name": "Monitor",
+  "price": 400,
+  "category": "Electronics",
+  "stock": 8
+},
+{
+  "_id": {
+    "$oid": "67e630cd8c08fcb323055673"
+  },
+  "name": "Charger",
+  "price": 50,
+  "category": "Accessories",
+  "stock": 60
+},
+{
+  "_id": {
+    "$oid": "67e630cd8c08fcb323055674"
+  },
+  "name": "External Hard Drive",
+  "price": 250,
+  "category": "Accessories",
+  "stock": 20
+},
+{
+  "_id": {
+    "$oid": "67e630cd8c08fcb323055675"
+  },
+  "name": "Camera",
+  "price": 1200,
+  "category": "Electronics",
+  "stock": 7
+},
+{
+  "_id": {
+    "$oid": "67e630cd8c08fcb323055676"
+  },
+  "name": "Speakers",
+  "price": 350,
+  "category": "Accessories",
+  "stock": 22
+},
+{
+  "_id": {
+    "$oid": "67e630cd8c08fcb323055677"
+  },
+  "name": "VR Headset",
+  "price": 800,
+  "category": "Electronics",
+  "stock": 10
+},
+{
+  "_id": {
+    "$oid": "67e630cd8c08fcb323055678"
+  },
+  "name": "Game Console",
+  "price": 500,
+  "category": "Electronics",
+  "stock": 14
+},
+{
+  "_id": {
+    "$oid": "67e630cd8c08fcb323055679"
+  },
+  "name": "Desk Lamp",
+  "price": 75,
+  "category": "Home",
+  "stock": 35
+},
+{
+  "_id": {
+    "$oid": "67e630cd8c08fcb32305567a"
+  },
+  "name": "Smart Bulb",
+  "price": 40,
+  "category": "Home",
+  "stock": 45
+},
+{
+  "_id": {
+    "$oid": "67e630cd8c08fcb32305567b"
+  },
+  "name": "Microwave",
+  "price": 250,
+  "category": "Home",
+  "stock": 5
+},
+{
+  "_id": {
+    "$oid": "67e630cd8c08fcb32305567c"
+  },
+  "name": "Blender",
+  "price": 120,
+  "category": "Home",
+  "stock": 25
+},
+{
+  "_id": {
+    "$oid": "67e630cd8c08fcb32305567d"
+  },
+  "name": "Air Purifier",
+  "price": 350,
+  "category": "Home",
+  "stock": 18
+},
+{
+  "_id": {
+    "$oid": "67e630cd8c08fcb32305567e"
+  },
+  "name": "Coffee Maker",
+  "price": 200,
+  "category": "Home",
+  "stock": 30
+}]

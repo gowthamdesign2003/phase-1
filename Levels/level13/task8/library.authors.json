@@ -1,0 +1,54 @@
+[{
+  "_id": {
+    "$oid": "67e63f5d1e011f48add776a9"
+  },
+  "name": "F. Scott Fitzgerald",
+  "birth_date": {
+    "$date": {
+      "$numberLong": "-2312150400000"
+    }
+  },
+  "nationality": "American",
+  "biography": "F. Scott Fitzgerald was an American novelist...",
+  "book_ids": [
+    {
+      "$oid": "67e63f3c87e29d6d43cfab5e"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67e63f5d1e011f48add776aa"
+  },
+  "name": "Harper Lee",
+  "birth_date": {
+    "$date": {
+      "$numberLong": "-1378425600000"
+    }
+  },
+  "nationality": "American",
+  "biography": "Harper Lee was an American novelist best known for 'To Kill a Mockingbird'...",
+  "book_ids": [
+    {
+      "$oid": "67e63f3c87e29d6d43cfab5f"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "67e63f5d1e011f48add776ab"
+  },
+  "name": "George Orwell",
+  "birth_date": {
+    "$date": {
+      "$numberLong": "-2099260800000"
+    }
+  },
+  "nationality": "British",
+  "biography": "George Orwell was an English novelist, essayist, journalist...",
+  "book_ids": [
+    {
+      "$oid": "67e63f3c87e29d6d43cfab60"
+    }
+  ]
+}]
