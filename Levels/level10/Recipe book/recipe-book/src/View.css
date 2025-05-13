@@ -1,0 +1,52 @@
+/* General Styles */
+.view-div-con {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 1300px;
+}
+
+h1 {
+    color: #01579b;
+
+    margin-top: 20px;
+}
+
+/* Full-Screen Container */
+.stud-view-cont {
+    background-color: white;
+    padding: 20px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+   
+}
+
+/* .p-stud-view-detail-page, .p-stud-detail-view--page, .p-stud-detail-view-page {
+    font-size: 20px;
+    color: #01579b;
+    margin: 15px 0;
+    line-height: 1.6;
+} */
+
+/* Back Button */
+.p-stud-view-btn {
+    display: inline-block;
+    background-color: #0288d1;
+    color: white;
+    padding: 15px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.p-stud-view-btn:hover {
+    background-color: #0277bd;
+}
