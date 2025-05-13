@@ -1,0 +1,137 @@
+/* === Global Styles === */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url(./bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  margin-top: 80px;
+  margin-bottom: 80px;
+  /* opacity: 0.4; */
+  width: 900px;
+  max-width: 1900px;
+  background-color: rgba(205, 234, 244, 0.2);
+  border-radius: 20px;
+  padding: 2rem;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+/* === Heading === */
+h1 {
+  width: 100%;
+  margin-bottom: 2rem;
+  color: #333;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+/* === Date Range Input Row === */
+.date-range {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  width: 100%;
+  margin: 20px 0 2rem 0;
+}
+
+/* === Inputs === */
+input[type="text"],
+input[type="date"] {
+  width: 200px;
+  padding: 14px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border 0.3s ease;
+}
+
+input:focus {
+  border-color: #0e7cc0;
+  outline: none;
+}
+
+/* === Button === */
+button {
+  height: 44px;
+  padding: 0.6rem 1.2rem;
+  background-color: #b24ae2;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #357ab8;
+}
+
+/* === Card Container (Row Layout) === */
+.card-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
+  gap: 1rem;
+  margin-top: 20px;
+  padding-bottom: 1rem;
+  overflow-x: auto;
+  width: 100%;
+}
+
+/* === Individual Card === */
+.card {
+  background: linear-gradient(to right, #b24ae2, #357ab8);
+  color: white;
+  margin-top: 20px;
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  min-width: 340px;
+  flex: 0 0 auto;
+}
+
+.card p {
+  margin: 0.3rem 0;
+  font-size: 1rem;
+}
+
+/* === Responsive Adjustments === */
+@media (max-width: 768px) {
+  .container {
+    padding: 1rem;
+    height: auto;
+  }
+
+  .date-range {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .card-container {
+    flex-direction: column;
+    align-items: center;
+    overflow-x: visible;
+  }
+
+  .card {
+    width: 230px;
+    text-align: center;
+  }
+}

@@ -1,0 +1,119 @@
+/* Reset and base styles */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url('/bg.jpg'); 
+   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.login-container,
+.dashboard-container {
+  width: 350px;
+  height: 250px;
+  margin: 60px auto;
+  margin-left:750px ;
+  padding: 30px;
+  background: linear-gradient(to right, #727374, #8de2f8);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+}
+
+/* Headings */
+.login-container h2,
+.dashboard-container h2,
+.dashboard-container h3 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #222;
+}
+
+/* Form styling */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input {
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  transition: border-color 0.3s ease;
+}
+
+input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+button {
+  padding: 12px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Task list */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background-color: #f1f3f6;
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li strong {
+  color: #222;
+}
+
+li button {
+  background-color: #f44336;
+  margin-left: 10px;
+}
+
+li button:hover {
+  background-color: #c62828;
+}
+
+li button:first-of-type {
+  background-color: #ffc107;
+}
+
+li button:first-of-type:hover {
+  background-color: #d39e00;
+}
+
+/* Back button */
+.dashboard-container button:nth-of-type(1) {
+  background-color: #6c757d;
+  margin-bottom: 20px;
+}
+
+.dashboard-container button:nth-of-type(1):hover {
+  background-color: #495057;
+}
+
+/* Feedback messages */
+p {
+  margin: 0;
+  font-size: 0.9rem;
+}
