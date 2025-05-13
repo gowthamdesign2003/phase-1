@@ -1,0 +1,8 @@
+[2025-03-26T07:03:37.008Z] Source directory D:\Phase 1\Level 15\task-10\automated-backup\source does not exist.
+[2025-03-26T07:03:37.137Z] Error cleaning up backups: ENOENT: no such file or directory, scandir 'D:\Phase 1\Level 15\task-10\automated-backup\backups'
+[2025-03-26T07:06:25.621Z] Source directory D:\Phase 1\Level 15\task-10\automated-backup\source does not exist.
+[2025-03-26T07:06:25.670Z] Error cleaning up backups: ENOENT: no such file or directory, scandir 'D:\Phase 1\Level 15\task-10\automated-backup\backups'
+[2025-03-26T07:06:48.939Z] Backup directory D:\Phase 1\Level 15\task-10\automated-backup\backups does not exist. Creating it now.
+[2025-03-26T07:06:48.951Z] Backup successful from D:\Phase 1\Level 15\task-10\automated-backup\source to D:\Phase 1\Level 15\task-10\automated-backup\backups\backup_2025-03-26T07-06-48.941Z
+[2025-03-26T07:06:49.008Z] Cleaned up backups, keeping the latest 3
+[2025-03-26T07:06:49.018Z] Backup compressed into D:\Phase 1\Level 15\task-10\automated-backup\backups\backup_2025-03-26T07-06-48.941Z.zip
